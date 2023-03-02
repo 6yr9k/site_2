@@ -1,0 +1,162 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Интернет-магазин</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="scss/style.css" />
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="wrapper">
+		  <div class="content">
+        <!--<div class="header">
+          <div class="container">
+            <div class="header__row">
+              <div class="header_body">
+                <div class="header__menu">
+                  <div class="header_1">О компании</div>
+                  <div class="header_1">Услуги</div>
+                  <div class="header_1">Доставка</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+        <div class="hi"> <!--шапка-->
+          <div class="container">
+            <div class="hi__row">
+              <div class="hi__body">
+                <div class="hi__title">LONKING HOLDINGS LIMITED</div>
+                <div class="hi__text">Lonking – это компания, которая была основана в 1993 году. На сегодняшний день это один из самых крупных производителей спецтехники для строительных и дорожных работ на территории Китая. Территория компании составляет не менее 3 миллионов квадратных метров – это действительно впечатляющие размеры.</div>
+              </div>
+            
+              <hi class="image">
+                <img src="img/1.jpg" alt="">
+              </hi>
+            </div>  
+          </div>
+        </div>
+
+        <div class="catalog"> <!--каталог со всеми товарами-->
+          <div class="container">
+            <div class="catalog__title">Строительная техника Lonking</div>
+            <div class="catalog__row">
+              
+              <div class="catalog__colum"> <!--колонка 1-->
+                <a href="https://lonking.com.ru/catalog/frontalnye-pogruzciki">
+                  <div class="catalog__item item">
+                    <div class="item__row">
+                      <div class="item__image">
+                        <img src="img/catalog_1.jpg" alt="">
+                      </div>
+                      <div class="item__body">
+                        <div class="item__title">Фронтальные погрузчики</div>
+                        <div class="item__subtitle">Грузоподъемность 1~7 тонн | Объем ковша 0.95~35.2 м³</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="catalog__colum"> <!--колонка 2-->
+                <a href="https://lonking.com.ru/catalog/vilocnye-pogruzciki">
+                  <div class="catalog__item item">
+                    <div class="item__row">
+                      <div class="item__image">
+                        <img src="img/catalog_2.jpg" alt="">
+                      </div>
+                      <div class="item__body">
+                        <div class="item__title">Вилочные погрузчики</div>
+                        <div class="item__subtitle">Грузоподъемность 2~7 тонн</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="catalog__colum"> <!--колонка 3-->
+                <a href="https://lonking.com.ru/catalog/mini-pogruzciki">
+                  <div class="catalog__item item">
+                    <div class="item__row">
+                      <div class="item__image">
+                        <img src="img/catalog_3.jpg" alt="">
+                      </div>
+                      <div class="item__body">
+                        <div class="item__title">Мини погрузчики</div>
+                        <div class="item__subtitle">Грузоподъемность 0.75~1.23 тонны | Объем ковша 0,43~0,54 м³</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+
+
+              <div class="catalog__colum"> <!--колонка 4-->
+                <a href="https://lonking.com.ru/catalog/katki-doroznye">
+                  <div class="catalog__item item">
+                    <div class="item__row">
+                      <div class="item__image">
+                        <img src="img/catalog_4.jpg" alt="">
+                      </div>
+                      <div class="item__body">
+                        <div class="item__title">Катки дорожные</div>
+                        <div class="item__subtitle">Ширина вальца 1,2~2.13 м | 3~26 тонн</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="catalog__colum"> <!--колонка 5-->
+                <a href="https://lonking.com.ru/catalog/avtogreidery">
+                  <div class="catalog__item item">
+                    <div class="item__row">
+                      <div class="item__image">
+                        <img src="img/catalog_5.jpg" alt="">
+                      </div>
+                      <div class="item__body">
+                        <div class="item__title">Автогрейдеры</div>
+                        <div class="item__subtitle">Макс. глубина резания 500~550 мм| 15~17 тонн</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="catalog__colum"> <!--колонка 6-->
+                <a class="catalog__link" href="https://lonking.com.ru/catalog/ekskavatory">
+                  <div class="catalog__item item">
+                    <div class="item__row">
+                      <div class="item__image">
+                        <img src="img/catalog_6.jpg" alt="">
+                      </div>
+                      <div class="item__body">
+                        <div class="item__title">Экскаваторы</div>
+                        <div class="item__subtitle">Ковш 0.25~2.2 м³ | 6~48,2 тонн</div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div> 
+              
+            </div>
+          </div>
+        </div>
+  		</div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__row">
+            <div class="text">8 800 123-45-67</div>
+          </div>
+        </div>
+      </footer>
+		</div>
+	</body>
+</html>
